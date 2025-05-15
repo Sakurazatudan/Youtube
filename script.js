@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // ← ここを自分のAPIキーに
+const apiKey = "AIzaSyDne3jtNnBTWkASNQVvOzaeHzNvmg4lLFg"; // ← ここを自分のAPIキーに
 const channelId = "YOUR_CHANNEL_ID"; // ← ここを自分のチャンネルIDに
 
 const countElement = document.getElementById("subscriberCount");
