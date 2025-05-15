@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="YouTube登録者カウンター。登録者数をリアルタイムで表示します。マイクラ風デザイン付き！">
+<meta name="keywords" content="YouTube, 登録者数, カウンター, リアルタイム, Minecraft, マイクラ風,桜,さくら,さくら雑談王国">
+<meta name="author" content="さくら雑談王国">
+
+  <title>さくら雑談王国Youtubeアカウント登録者カウンター</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/sakura-js@1.0.1/dist/sakura.min.js"></script>
+</head>
+<body>
+  <h1 class="logo">📦 Neon Counter</h1>
+
+  <p id="subscriber-count">読み込み中...</p>
+
+  <img src="your-item.png" alt="マイクラ風アイテム" class="floating-item" onclick="showPopup()">
+
+  <a class="subscribe-button" href="https://www.youtube.com/channel/【チャンネルID】?sub_confirmation=1" target="_blank">
+    チャンネル登録する！
+  </a>
+
+  <!-- ポップアップ -->
+  <div id="popup">
+    <div class="popup-content">
+      <img src="popup-image.png" alt="登録画像" class="popup-img">
+      <p>チャンネル登録してね！</p>
+      <button onclick="hidePopup()">閉じる</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    new Sakura('body'); // 桜エフェクト
+  </script>
+</body>
+</html>
