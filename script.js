@@ -1,5 +1,5 @@
 const apiKey = "AIzaSyDne3jtNnBTWkASNQVvOzaeHzNvmg4lLFg"; // ← ここを自分のAPIキーに
-const channelId = "YOUR_CHANNEL_ID"; // ← ここを自分のチャンネルIDに
+const channelId = "UC7YvhyK8vWOoRGwhGqmogNw"; // ← ここを自分のチャンネルIDに
 
 const countElement = document.getElementById("subscriberCount");
 const message = document.getElementById("message");
