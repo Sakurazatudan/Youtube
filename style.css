@@ -43,6 +43,12 @@ body {
   100% { transform: rotate(360deg); }
 }
 
+.logo img {
+  width: 80px;       /* サイズ小さく調整 */
+  max-width: 100%;
+  transition: transform 0.5s;
+}
+
 #message {
   margin-top: 20px;
   font-size: 1.2rem;
@@ -53,4 +59,10 @@ body {
 
 #message.show {
   opacity: 1;
+}
+
+#message img {
+  width: 100px;
+  display: block;
+  margin: 0 auto 10px;
 }
