@@ -19,18 +19,17 @@
 
   <img src="img/logo.png" alt="マイクラ風アイテム" class="floating-item" onclick="showPopup()">
 
-  <a class="subscribe-button" href="https://www.youtube.com/channel/【チャンネルID】?sub_confirmation=1" target="_blank">
-    チャンネル登録する！
-  </a>
+  <!-- 登録ボタン画像 -->
+<button id="subscribeButton">
+  <img src="sub-icon.png" alt="チャンネル登録" class="rotate">
+</button>
 
-  <!-- ポップアップ -->
-  <div id="popup">
-    <div class="popup-content">
-      <img src="img/sub-icon.png" alt="登録画像" class="popup-img">
-      <p>チャンネル登録してね！</p>
-      <button onclick="hidePopup()">閉じる</button>
-    </div>
-  </div>
+  <!-- 登録してねメッセージ（画像＋テキスト） -->
+<div id="message">
+  <img src="logo.png" alt="登録してね">
+  登録してね！
+</div>
+
 
   <script src="script.js"></script>
   <script>
