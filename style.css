@@ -1,0 +1,56 @@
+body {
+  background-color: #ffe4ec; /* 桜色背景 */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.logo img {
+  width: 120px;
+  transition: transform 0.5s;
+}
+
+.counter p {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+#subscriberCount {
+  font-size: 3rem;
+  color: #e91e63;
+  margin: 0.5em 0;
+}
+
+#subscribeButton {
+  background: none;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#subscribeButton .rotate {
+  width: 100px;
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #d81b60;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#message.show {
+  opacity: 1;
+}
