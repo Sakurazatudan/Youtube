@@ -24,7 +24,8 @@ fetchSubscribers();
 // 10秒ごとに更新
 setInterval(fetchSubscribers, 10000);
 
-// ボタンタップ時にメッセージ表示
+// ボタンタップ時にメッセージ表示  
 subscribeButton.addEventListener("click", () => {
   message.classList.add("show");
+  window.open("https://www.youtube.com/channel/${channelId}?sub_confirmation=1", "_blank");
 });
